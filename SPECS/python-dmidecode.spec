@@ -4,7 +4,7 @@
 Summary: Python module to access DMI data
 Name: python-dmidecode
 Version: 3.10.13
-Release: 9%{?dist}
+Release: 11%{?dist}
 License: GPLv2
 Group: System Environment/Libraries
 URL: http://projects.autonomy.net.au/python-dmidecode/
@@ -60,6 +60,12 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/python-dmidecode/
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 3.10.13-11
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 3.10.13-10
+- Mass rebuild 2013-12-27
+
 * Mon Jun 20 2013 Ales Ledvinka <aledvink@redhat.com> - 3.10.13-9
 - Attribute installed may appear as duplicate and cause invalid XML.
 
